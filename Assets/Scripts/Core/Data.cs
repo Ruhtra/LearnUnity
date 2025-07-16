@@ -1,11 +1,11 @@
 using UnityEngine;
-
+using BreakInfinity;
 
 namespace MyProject.Core
 {
     public class Data
     {
-        public double flasks;
+        public BigDouble flasks;
 
         public Data()
         {
