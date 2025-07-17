@@ -1,5 +1,6 @@
 using UnityEngine;
 using BreakInfinity;
+using System.Collections.Generic;
 
 namespace MyProject.Core
 {
@@ -7,12 +8,12 @@ namespace MyProject.Core
     {
         public BigDouble flasks;
 
-        public BigDouble clickUpgradeLevel;
+        public List<BigDouble> clickUpgradeLevel;
 
         public Data()
         {
             flasks = 0;
-            clickUpgradeLevel = 0;
+            clickUpgradeLevel = Methods.CreateList<BigDouble>(4);
         }
     }
 
